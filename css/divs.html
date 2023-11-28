@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <style type="text/css">
+
+        #topo{
+            background-color: blue;
+        }
+        #conteudo{
+            background-color: turquoise;
+            border: 2px groove red;
+        }
+        #rodape{
+            background-color: wheat;
+            margin: 10px;
+        }
+        #assinatura{
+            background-color: yellowgreen;
+            margin: 10px;
+        }
+        .produtos{
+            background-color: gray;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Divs ficam uma em baixo da outra (linhas) enquanto spans ficam um do lado do outro (colunas)-->
+    <div id="topo">
+
+        <img src="https://jpimg.com.br/uploads/2018/09/amazon.png" width="200" height="150">
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contatos</li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="produtos">
+            Produto 1
+        </div>
+        <div class="produtos">
+            Produto 2
+        </div>
+        <div class="produtos">
+            Produto 3
+        </div>
+        <div id="rodape">
+            Todos os direitos reservados
+        </div>
+    </div>
+    <span id="assinatura">
+        SPAN 1
+    </span>
+    <span id="rodape">
+        SPAN 2
+    </span>
+</body>
+</html>
