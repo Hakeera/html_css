@@ -1,0 +1,26 @@
+.caixa{
+    padding:20px;
+    width:150px;
+    margin: 2px;    
+    border: 1px solid red;
+    text-align: center
+}
+.float_r{
+    padding:20px;
+    width:150px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 2px;
+    float: right
+}
+.float_l{
+    padding:20px;
+    width:150px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 2px;
+    float: left
+}
+.clear{
+    clear: both;
+}
